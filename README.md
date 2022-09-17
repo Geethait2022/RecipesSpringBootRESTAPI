@@ -12,7 +12,7 @@ DELETE:	 http://localhost:8888/recipes/removerecipe/{recipe_id}
 
 GET:	     http://localhost:8888/recipes/getrecipe/{recipe_id}
 
-GET:	     http://localhost:8888/recipes/filterrecipe?recipe_type=Vegtarian
+GET:	     http://localhost:8888/recipes/filterrecipe?recipe_type=vegetarian
 
 
 This project has unit tests and integration tests and used tools like Mockito and JUnit.
