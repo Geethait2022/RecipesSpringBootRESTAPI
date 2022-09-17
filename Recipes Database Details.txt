@@ -1,0 +1,17 @@
+# Recipe Database details
+
+# Create recipes database using mysql command line or Workbench
+create database recipes;
+
+# Run below command to use the database
+use recipes;
+
+# Create recipe table using below command
+create table recipe(recipe_id int not null auto_increment,recipe_name varchar(100) not null,recipe_type varchar(30) not null,num_of_servings int not null,ingredients varchar(200) not null,instructions varchar(200) not null,primary key(recipe_id));
+
+#Connection details
+mysql url=jdbc:mysql://localhost:3306/recipes
+
+username=root
+password=root
+
